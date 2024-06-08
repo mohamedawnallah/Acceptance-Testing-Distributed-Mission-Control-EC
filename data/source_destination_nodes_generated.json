@@ -1,0 +1,3206 @@
+[
+  {
+    "source": "lnd",
+    "destination": "lnd1",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd1"
+    ]
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd2",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd2"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717883219",
+            "success_amt_sat": "40224",
+            "success_amt_msat": "40224040"
+          }
+        },
+        {
+          "node_from": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+          "node_to": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717883219",
+            "success_amt_sat": "40223",
+            "success_amt_msat": "40223000"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717883219",
+            "success_amt_sat": "40224",
+            "success_amt_msat": "40224083"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "history": {
+            "fail_time": "1717883218",
+            "fail_amt_sat": "40223",
+            "fail_amt_msat": "40223000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717883218",
+            "success_amt_sat": "40223",
+            "success_amt_msat": "40223091"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717883219",
+            "success_amt_sat": "40224",
+            "success_amt_msat": "40224129"
+          }
+        },
+        {
+          "node_from": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "node_to": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "history": {
+            "fail_time": "1717883218",
+            "fail_amt_sat": "40223",
+            "fail_amt_msat": "40223000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+          "node_to": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717883218",
+            "success_amt_sat": "40223",
+            "success_amt_msat": "40223049"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "44aa51ee0c13e0dd5bb3fd61329fe17b2296d53a7135ca2a9b33ec9319e96fe6",
+      "value": "40223",
+      "creation_date": "1717883218",
+      "fee": "1",
+      "payment_preimage": "6bcc0507ac2b8cec0d0780ab8b60b59fd813c79ce20a56a7b85b29d503960122",
+      "value_sat": "40223",
+      "value_msat": "40223000",
+      "payment_request": "lnbcrt402230n1pnxf523pp5gj49rmsvz0sd6kanl4sn98lp0v3fd4f6wy6u525mx0kfxx0fdlnqdqqcqzzsxqyz5vqsp525xqtlt3eq4rn0e2zs9rntpys2xz9gxspgj2rwucl3mafjd0ngvq9qxpqysgqxxy79lsfmuccew3ta7fjeuanv27h23vc47qn2wgjexeg3jtq9chjuyzgkd82pqgaaj0q0x4udzn93duvtvw04ml7t04s0ugl6y5l7jgpp39xmt",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1129",
+      "creation_time_ns": "1717883218162024180",
+      "htlcs": [
+        {
+          "attempt_id": "41",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 786,
+            "total_fees": "0",
+            "total_amt": "40223",
+            "hops": [
+              {
+                "chan_id": "676199651213312",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 706,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "46",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "481586093031424",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 706,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "0",
+                "pub_key": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "550c05fd71c82a39bf2a140a39ac24828c22a0d00a24a1bb98fc77d4c9af9a18",
+                  "total_amt_msat": "40223000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "46",
+            "total_amt_msat": "40223046"
+          },
+          "attempt_time_ns": "1717883218180063555",
+          "resolve_time_ns": "1717883218330792513",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "ea4521174ee6dd3e3a8b7790ed7d3f995d62410fb6683bfe7d7da23a58a8685366f9ce7f4d238708ea0c68e876e93d99dda8fa15812c23304ee3327977d01ddb",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "481586093031424",
+              "timestamp": 1717881533,
+              "message_flags": 1,
+              "channel_flags": 1,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 6,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "42",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 946,
+            "total_fees": "0",
+            "total_amt": "40223",
+            "hops": [
+              {
+                "chan_id": "676199651213312",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 866,
+                "amt_to_forward_msat": "40223091",
+                "fee_msat": "53",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "606930418597888",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 786,
+                "amt_to_forward_msat": "40223049",
+                "fee_msat": "42",
+                "pub_key": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "474989023264768",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 706,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "49",
+                "pub_key": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "273778395381760",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 706,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "0",
+                "pub_key": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "550c05fd71c82a39bf2a140a39ac24828c22a0d00a24a1bb98fc77d4c9af9a18",
+                  "total_amt_msat": "40223000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "144",
+            "total_amt_msat": "40223144"
+          },
+          "attempt_time_ns": "1717883218346304638",
+          "resolve_time_ns": "1717883218785939763",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "1da820163b60e323060b65d7ca25b3ceaf10641710c8fad89f881d6b021440321395929212e7f359b02493a1f8c00d9fbbe2e93dc9b978a2be13e97901521ed2",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "273778395381760",
+              "timestamp": 1717881000,
+              "message_flags": 1,
+              "channel_flags": 1,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 9,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 3,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "43",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 946,
+            "total_fees": "1",
+            "total_amt": "40224",
+            "hops": [
+              {
+                "chan_id": "676199651213312",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40224",
+                "fee": "0",
+                "expiry": 866,
+                "amt_to_forward_msat": "40224083",
+                "fee_msat": "46",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "672901116329984",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40224",
+                "fee": "0",
+                "expiry": 786,
+                "amt_to_forward_msat": "40224040",
+                "fee_msat": "43",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "428809534898176",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "1",
+                "expiry": 706,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "1040",
+                "pub_key": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "663005511680000",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 706,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "0",
+                "pub_key": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "550c05fd71c82a39bf2a140a39ac24828c22a0d00a24a1bb98fc77d4c9af9a18",
+                  "total_amt_msat": "40223000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1129",
+            "total_amt_msat": "40224129"
+          },
+          "attempt_time_ns": "1717883218802237222",
+          "resolve_time_ns": "1717883219251069680",
+          "failure": null,
+          "preimage": "6bcc0507ac2b8cec0d0780ab8b60b59fd813c79ce20a56a7b85b29d503960122"
+        }
+      ],
+      "payment_index": "28",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd3",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd3"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881569",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881570",
+            "success_amt_sat": "38893",
+            "success_amt_msat": "38893076"
+          }
+        },
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881570",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "node_to": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881570",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
+          "history": {
+            "fail_time": "1717881569",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "dd081841b8537cfdd293f584ce43a83e06fb4a59ebe9931d2cc3a81084150395",
+      "value": "38891",
+      "creation_date": "1717881569",
+      "fee": "2",
+      "payment_preimage": "fd749d890ee1c08aabe530a42d42b63737844d633ae785efe7c212493b317c34",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfjhppp5m5ypssdc2d70m55n7kzvusag8cr0kjjea05ex8fvcw5pppq4qw2sdqqcqzzsxqyz5vqsp5uct6g27ngvkjnypkltf7fnany6cxuujvfpymnng4q4c3as4j5epq9qxpqysgqffdj3n3jy05sclzswpm7z4k3k2hqqfhhpnpqcfqadn6fz9zr4flnvleflkpwh7wpwclju4pl8vwpdk5n7axe73z7t3k5mcmynuhfg9qqsl0j4h",
+      "status": "SUCCEEDED",
+      "fee_sat": "2",
+      "fee_msat": "2076",
+      "creation_time_ns": "1717881569549708542",
+      "htlcs": [
+        {
+          "attempt_id": "17",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 615,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "244091581431808",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 535,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "310062279098368",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 535,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "e617a42bd3432d299036fad3e4cfb326b06e724c4849b9cd1505711ec2b2a642",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1038",
+            "total_amt_msat": "38892038"
+          },
+          "attempt_time_ns": "1717881569566362625",
+          "resolve_time_ns": "1717881569705197042",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "40d8d2a77c9cf834b1f28f0296b93a643104cc0afc8bbef11e967709f70df41942c5ea3f3843cc9e386d4077dd58ff0753b5aec798b6cd8f83e6f1a38979c38e",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "310062279098368",
+              "timestamp": 1717881069,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "18",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 695,
+            "total_fees": "2",
+            "total_amt": "38893",
+            "hops": [
+              {
+                "chan_id": "494780232564736",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "1",
+                "expiry": 615,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "1038",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "260584255848448",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 535,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "329853488398336",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 535,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "e617a42bd3432d299036fad3e4cfb326b06e724c4849b9cd1505711ec2b2a642",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "2076",
+            "total_amt_msat": "38893076"
+          },
+          "attempt_time_ns": "1717881569718133417",
+          "resolve_time_ns": "1717881570021843542",
+          "failure": null,
+          "preimage": "fd749d890ee1c08aabe530a42d42b63737844d633ae785efe7c212493b317c34"
+        }
+      ],
+      "payment_index": "16",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd4",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd4"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
+          "history": {
+            "fail_time": "1717881608",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881608",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881609",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892096"
+          }
+        },
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881609",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "node_to": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881609",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "a03a58f6ad3ea4aefe59b24086f5c37e74d42235d385e7ab8293ebb2fa3cab8d",
+      "value": "38891",
+      "creation_date": "1717881608",
+      "fee": "1",
+      "payment_preimage": "3fcd73fbb4c11b8f833b5411446ed68b43d9361292f1b1e3da23f27aaa6e7964",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfjcgpp55qa93a4d86j2aljekfqgdawr0e6dgg346wz702uzj04m973u4wxsdqqcqzzsxqyz5vqsp5h56y6p3ya8y474q5j6mlduwdg5p9u960zzyjgfqdwkm0x2v5ymuq9qxpqysgqpxf6ahtp47s3q6wkcalhqk7jnl5pfvq6n356f256d43d73sy8y8hu08gjxrgv69cg7unkjj74pa05hnffztkyyrdmctvzxc0p0xrftsqsc0ply",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1096",
+      "creation_time_ns": "1717881608528771296",
+      "htlcs": [
+        {
+          "attempt_id": "19",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 630,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "244091581431808",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 550,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "336450558164992",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 550,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "bd344d0624e9c95f541496b7f6f1cd45025e174f108924240d75b6f3299426f8",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1038",
+            "total_amt_msat": "38892038"
+          },
+          "attempt_time_ns": "1717881608548752504",
+          "resolve_time_ns": "1717881608718461504",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "f8c9f523d8e59058093e89edfc089e437e257fee6b597faafecd8d4d5efd0458257b34e18484a4ab8b82aacb9870136bc14115f70f52e13e6292daeeb4f5a798",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "336450558164992",
+              "timestamp": 1717881116,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "20",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 710,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "511272907046912",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 630,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "58",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "257285720965120",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 550,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "356241767464960",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 550,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "bd344d0624e9c95f541496b7f6f1cd45025e174f108924240d75b6f3299426f8",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1096",
+            "total_amt_msat": "38892096"
+          },
+          "attempt_time_ns": "1717881608732592129",
+          "resolve_time_ns": "1717881609081531380",
+          "failure": null,
+          "preimage": "3fcd73fbb4c11b8f833b5411446ed68b43d9361292f1b1e3da23f27aaa6e7964"
+        }
+      ],
+      "payment_index": "17",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd5",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "0324ec61f7f5af5a493b2e0e3297cadab061618fdd2c3d2bac599cbc05b46d664d",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd1",
+      "lnd11",
+      "lnd5"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881659",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892096"
+          }
+        },
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881659",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "node_to": "0324ec61f7f5af5a493b2e0e3297cadab061618fdd2c3d2bac599cbc05b46d664d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881659",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "e62bd57d8e1e1a53e89a553abde008c1ce9166054489b79d259a72421e4c2a1d",
+      "value": "38891",
+      "creation_date": "1717881658",
+      "fee": "1",
+      "payment_preimage": "7149999f6dec8443de8e7331eff845b21e8f8c4bdbfb7ff1483b47d99b90fb5c",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfje6pp5uc4a2lvwrcd986y625atmcqgc88fzes9gjym08f9nfeyy8jv9gwsdqqcqzzsxqyz5vqsp5gdy9x2rzjrn5ssnc558vsv6up5st2xg40tkexs38tsg0zcuewpqq9qxpqysgq3uts68arpclhlqews3ywqu6gkcw4esr77j5n8a06g3wdjkd70pqz7jqzmrycymd8kgs5vy23504e8k5f7dy0qkh03x728xh5le6n8zspz4l8ua",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1096",
+      "creation_time_ns": "1717881658598780333",
+      "htlcs": [
+        {
+          "attempt_id": "21",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 725,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "527765581398016",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 645,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "58",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "507974372098048",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 565,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "389227116298240",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 565,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "0324ec61f7f5af5a493b2e0e3297cadab061618fdd2c3d2bac599cbc05b46d664d",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "434853286290e7484278a50ec8335c0d20b519157aed9342275c10f163997040",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1096",
+            "total_amt_msat": "38892096"
+          },
+          "attempt_time_ns": "1717881658659993916",
+          "resolve_time_ns": "1717881659245582292",
+          "failure": null,
+          "preimage": "7149999f6dec8443de8e7331eff845b21e8f8c4bdbfb7ff1483b47d99b90fb5c"
+        }
+      ],
+      "payment_index": "18",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd6",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd6"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881700",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "1717881700",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881700",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881700",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892111"
+          }
+        },
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881700",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "43bee2d511972361fa8f89f148151f8555ccaf59962aa95d7dae4af70f3dc0a9",
+      "value": "38891",
+      "creation_date": "1717881699",
+      "fee": "1",
+      "payment_preimage": "bf9def445b7a875a545e02c3c92f141ba61716544cb21d8e12c6f73e31a8ee5a",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfjmrpp5gwlw94g3ju3kr75038c5s9gls42uet6ejc42jhta4e90wreacz5sdqqcqzzsxqyz5vqsp5wdhrzapzfprqjphk9507swmrrvk77xgvcfg6sz36edxjgerz8ffq9qxpqysgql2n2fzj8c5r0dhukmeuq72mz9yc955m4wk9paxlfj54ysyqnp964eqhdt3t76kjv5jj7e5dc3s4kwhm20tpeksven5c3fczucpfhteqqa6tvl5",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1111",
+      "creation_time_ns": "1717881699850767755",
+      "htlcs": [
+        {
+          "attempt_id": "22",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 660,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "244091581431808",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 580,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "415615395364864",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 580,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "736e31742248460906f62d1fe83b631b2def190cc251a80a3acb4d2464623a52",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1038",
+            "total_amt_msat": "38892038"
+          },
+          "attempt_time_ns": "1717881699866957422",
+          "resolve_time_ns": "1717881700012950588",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "2b92b6dc736ab93b7b92295efb8471417bc17f364f424e89cf637317e2a52fd166d11e8c89b82b5e8f9e43983fc3ccda300e178f4e7108d5a17c9ad5dd954b23",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "415615395364864",
+              "timestamp": 1717881274,
+              "message_flags": 1,
+              "channel_flags": 1,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "23",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 740,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "544258255814656",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 660,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "73",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "263882790731776",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 580,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "442003674431488",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 580,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "736e31742248460906f62d1fe83b631b2def190cc251a80a3acb4d2464623a52",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1111",
+            "total_amt_msat": "38892111"
+          },
+          "attempt_time_ns": "1717881700026301797",
+          "resolve_time_ns": "1717881700381390797",
+          "failure": null,
+          "preimage": "bf9def445b7a875a545e02c3c92f141ba61716544cb21d8e12c6f73e31a8ee5a"
+        }
+      ],
+      "payment_index": "19",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd7",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd7"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+          "history": {
+            "fail_time": "1717881739",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881739",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881739",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892096"
+          }
+        },
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881739",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "node_to": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881739",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "fe5f21c12169aa4235250f9ba452572e124926b212b7eaf6b54c7a054f25812a",
+      "value": "38891",
+      "creation_date": "1717881738",
+      "fee": "1",
+      "payment_preimage": "fb685334c44433a71c0b65122d387bca0d252b9a9098d666ddd074f601df1c76",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfju2pp5le0jrsfpdx4yydf9p7d6g5jh9cfyjf4jz2m74a44f3aq2ne9sy4qdqqcqzzsxqyz5vqsp5jmkdze4vwfdpuwst0vfhfvp9ry222u6cannymgth57aw3rd6ftms9qxpqysgq4aruuzc2jq0k6xtkze6papgt85s2h79spkfjar0awyqmkxm4sxp3pl8tjzj8zvlut3q7sujx8hlsvt47quylf777vrv5m5xnu0c0lzgpl35exj",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1096",
+      "creation_time_ns": "1717881738844276759",
+      "htlcs": [
+        {
+          "attempt_id": "24",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 675,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "244091581431808",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 595,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "455197813964800",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 595,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "96ecd166ac725a1e3a0b7b1374b0251914a57358ece64da177a7bae88dba4af7",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1038",
+            "total_amt_msat": "38892038"
+          },
+          "attempt_time_ns": "1717881738861818801",
+          "resolve_time_ns": "1717881739022856301",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "8b86eaf5c83cce1b1a9ef12094cb42a614c377dcd7ed32bb83796cafcafca6d900e705537e2391849258238e71bb05b8bdc886bb876fc3181f0e1ad2232f109e",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "455197813964800",
+              "timestamp": 1717881347,
+              "message_flags": 1,
+              "channel_flags": 1,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "25",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 755,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "560750930296832",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 675,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "58",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "540959720931328",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 595,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "448600744198144",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 595,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "96ecd166ac725a1e3a0b7b1374b0251914a57358ece64da177a7bae88dba4af7",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1096",
+            "total_amt_msat": "38892096"
+          },
+          "attempt_time_ns": "1717881739037043176",
+          "resolve_time_ns": "1717881739470551968",
+          "failure": null,
+          "preimage": "fb685334c44433a71c0b65122d387bca0d252b9a9098d666ddd074f601df1c76"
+        }
+      ],
+      "payment_index": "20",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd8",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8"
+    ]
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd9",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd1",
+      "lnd9"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "history": {
+            "fail_time": "1717881776",
+            "fail_amt_sat": "40223",
+            "fail_amt_msat": "40223000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881776",
+            "success_amt_sat": "40223",
+            "success_amt_msat": "40223060"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881776",
+            "success_amt_sat": "40225",
+            "success_amt_msat": "40225080"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881776",
+            "success_amt_sat": "40224",
+            "success_amt_msat": "40224040"
+          }
+        },
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881776",
+            "success_amt_sat": "40223",
+            "success_amt_msat": "40223000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "dc5120ce2f42dd31875329aa884e1666e8569b6ff1309d138a4c9b8a2f6cfa2c",
+      "value": "40223",
+      "creation_date": "1717881776",
+      "fee": "2",
+      "payment_preimage": "9f5871d3267785a9fe91ffa1e667c25467127249e16742986840b98af4132829",
+      "value_sat": "40223",
+      "value_msat": "40223000",
+      "payment_request": "lnbcrt402230n1pnxfja0pp5m3gjpn30gtwnrp6n9x4gsnskvm59dxm07ycf6yu2fjdc5tmvlgkqdqqcqzzsxqyz5vqsp5awv4uaep5xe5vlnc85sxnqw2c6spghj832422vmrftx5v7xravmq9qxpqysgq9v39hq2a9mje0d7ep8mq6sq77lfspcfdq7s2e2tpryt2lr3hm5npx0a0lrshdass5nsf7ng87n9gggnmgrze35jsenyv6tyr8yuc3egqtzm5sc",
+      "status": "SUCCEEDED",
+      "fee_sat": "2",
+      "fee_msat": "2080",
+      "creation_time_ns": "1717881776071035388",
+      "htlcs": [
+        {
+          "attempt_id": "26",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 690,
+            "total_fees": "0",
+            "total_amt": "40223",
+            "hops": [
+              {
+                "chan_id": "577243604647936",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 610,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "60",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "524467046514688",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 610,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "0",
+                "pub_key": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "eb995e7721a1b3467e783d206981cac6a0145e478aaaa533634acd4678c3eb36",
+                  "total_amt_msat": "40223000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "60",
+            "total_amt_msat": "40223060"
+          },
+          "attempt_time_ns": "1717881776089566763",
+          "resolve_time_ns": "1717881776243111721",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "8776aaa6c1487a15cf25c80c86c822ceb7f43517d63f976a89b06146f845747a2ad733f531d43cb0b65a923f5115f9dc3ad527704d7dd2b96ba2e4663d655a45",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "524467046514688",
+              "timestamp": 1717881637,
+              "message_flags": 1,
+              "channel_flags": 1,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 20,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "27",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 770,
+            "total_fees": "2",
+            "total_amt": "40225",
+            "hops": [
+              {
+                "chan_id": "244091581431808",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40224",
+                "fee": "1",
+                "expiry": 690,
+                "amt_to_forward_msat": "40224040",
+                "fee_msat": "1040",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "415615395364864",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "1",
+                "expiry": 610,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "1040",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "405719790714880",
+                "chan_capacity": "60600",
+                "amt_to_forward": "40223",
+                "fee": "0",
+                "expiry": 610,
+                "amt_to_forward_msat": "40223000",
+                "fee_msat": "0",
+                "pub_key": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "eb995e7721a1b3467e783d206981cac6a0145e478aaaa533634acd4678c3eb36",
+                  "total_amt_msat": "40223000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "2080",
+            "total_amt_msat": "40225080"
+          },
+          "attempt_time_ns": "1717881776255101304",
+          "resolve_time_ns": "1717881776597979763",
+          "failure": null,
+          "preimage": "9f5871d3267785a9fe91ffa1e667c25467127249e16742986840b98af4132829"
+        }
+      ],
+      "payment_index": "21",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd10",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd1",
+      "lnd10"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881813",
+            "success_amt_sat": "38890",
+            "success_amt_msat": "38890073"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881814",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892076"
+          }
+        },
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "history": {
+            "fail_time": "1717881813",
+            "fail_amt_sat": "38890",
+            "fail_amt_msat": "38890000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "history": {
+            "fail_time": "1717881813",
+            "fail_amt_sat": "38890",
+            "fail_amt_msat": "38890000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881813",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891038"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881814",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891038"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881814",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891038"
+          }
+        },
+        {
+          "node_from": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "node_to": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "history": {
+            "fail_time": "1717881814",
+            "fail_amt_sat": "38890",
+            "fail_amt_msat": "38890000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+          "node_to": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881814",
+            "success_amt_sat": "38890",
+            "success_amt_msat": "38890000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "08dd45e68937f703c0358ee85ddab244f7073f19e26430f3c4a24533334ce52a",
+      "value": "38890",
+      "creation_date": "1717881813",
+      "fee": "2",
+      "payment_preimage": "69d32d366a0cbbea654e54534793571659f313cb05e65c8c48347166c4c6f94a",
+      "value_sat": "38890",
+      "value_msat": "38890000",
+      "payment_request": "lnbcrt388900n1pnxfj74pp5prw5te5fxlms8sp43m59mk4jgnmsw0ceufjrpu7y5fznxv6vu54qdqqcqzzsxqyz5vqsp5hl6te3e2use4rl8c88k0a9q397cjyrf5uhucw0z4wh3kmaqhncuq9qxpqysgq0zzxftgr7gat2ns2tywwk36jdmqx59nc7hdluxquncrg4s8fzddyjr67gjxltgwr6h7ch32xuxdy3mtegvlqxs3l4nylu7hs2hctlgqqv57v3p",
+      "status": "SUCCEEDED",
+      "fee_sat": "2",
+      "fee_msat": "2076",
+      "creation_time_ns": "1717881813295641127",
+      "htlcs": [
+        {
+          "attempt_id": "28",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 705,
+            "total_fees": "0",
+            "total_amt": "38890",
+            "hops": [
+              {
+                "chan_id": "577243604647936",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "0",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "73",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "557452395347968",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "0",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "0",
+                "pub_key": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "bff4bcc72ae43351fcf839ecfe94112fb1220d34e5f9873c5575e36df4179e38",
+                  "total_amt_msat": "38890000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "73",
+            "total_amt_msat": "38890073"
+          },
+          "attempt_time_ns": "1717881813322972960",
+          "resolve_time_ns": "1717881813470578002",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "8de789684943574037ba1b682457ea4a57fd86f42ac04075b02ac2a7d31e5f661b63ecfe6dad2fc41227a53b52a31db1726a6db26a911b32333e85da836edf06",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "557452395347968",
+              "timestamp": 1717881724,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 35,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "29",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 785,
+            "total_fees": "1",
+            "total_amt": "38891",
+            "hops": [
+              {
+                "chan_id": "593736279064576",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 705,
+                "amt_to_forward_msat": "38891038",
+                "fee_msat": "44",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "547556790697984",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "1",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "1038",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "445302209314816",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "0",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "0",
+                "pub_key": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "bff4bcc72ae43351fcf839ecfe94112fb1220d34e5f9873c5575e36df4179e38",
+                  "total_amt_msat": "38890000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1082",
+            "total_amt_msat": "38891082"
+          },
+          "attempt_time_ns": "1717881813487495460",
+          "resolve_time_ns": "1717881813752272794",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "9d8bb642279f1f39e151ba4dd12be90a9a5908db8f0d263b63cffe3a0668c35977bb7628df96dfd529054806e3b7ebe7ce1f291e89bf7898c8904bcb6f842c47",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "445302209314816",
+              "timestamp": 1717881324,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 2,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "30",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 785,
+            "total_fees": "2",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "593736279064576",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 705,
+                "amt_to_forward_msat": "38891038",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "303465209331712",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "1",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "1038",
+                "pub_key": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "488183162798080",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "0",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "0",
+                "pub_key": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "bff4bcc72ae43351fcf839ecfe94112fb1220d34e5f9873c5575e36df4179e38",
+                  "total_amt_msat": "38890000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "2076",
+            "total_amt_msat": "38892076"
+          },
+          "attempt_time_ns": "1717881813765797335",
+          "resolve_time_ns": "1717881814012483544",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "bc01b4aa9bae84edfb49aab185a226e11d6bbb7ae71fca910e8779c9ce24d41a1125315843131294ffe19ec97c823787d4a78336c56e97daae6d8fae8a81298a",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "488183162798080",
+              "timestamp": 1717881547,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 2,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "31",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 785,
+            "total_fees": "2",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "593736279064576",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 705,
+                "amt_to_forward_msat": "38891038",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "455197813964800",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "1",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "1038",
+                "pub_key": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "478287558148096",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38890",
+                "fee": "0",
+                "expiry": 625,
+                "amt_to_forward_msat": "38890000",
+                "fee_msat": "0",
+                "pub_key": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "bff4bcc72ae43351fcf839ecfe94112fb1220d34e5f9873c5575e36df4179e38",
+                  "total_amt_msat": "38890000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "2076",
+            "total_amt_msat": "38892076"
+          },
+          "attempt_time_ns": "1717881814023879919",
+          "resolve_time_ns": "1717881814334205211",
+          "failure": null,
+          "preimage": "69d32d366a0cbbea654e54534793571659f313cb05e65c8c48347166c4c6f94a"
+        }
+      ],
+      "payment_index": "22",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd11",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd1",
+      "lnd11"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "node_to": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+          "history": {
+            "fail_time": "1717881857",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881857",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881857",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892082"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881857",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881857",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "785d6212c666c37d99577b80f439502c4753a357e265d18bfb0abaed86d059b0",
+      "value": "38891",
+      "creation_date": "1717881856",
+      "fee": "1",
+      "payment_preimage": "189bffd6594b04f3119e228356d785e1429d0044582c7f9dbbf5264db2f8edc1",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfnqqpp50pwkyykxvmphmx2h0wq0gw2s93r48g6hufjarzlmp2awmpkstxcqdqqcqzzsxqyz5vqsp5wska235akk67qze2pywqz2f2nfxsxea8rg2p279f0qpn863gm85s9qxpqysgqtjn49zxkzyysp4jyt0esjlr26n7hlwnrhwsa5sk0790skkget06j4epepjtykprej3gnhs8fak9crkh322576eh98n5kurq2rx6kyrqpgxfky4",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1082",
+      "creation_time_ns": "1717881856664209050",
+      "htlcs": [
+        {
+          "attempt_id": "32",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 720,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "577243604647936",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 640,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "253987186081792",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 640,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "742dd5469db5b5e00b2a091c01292a9a4d0367a71a141578a9780333ea28d9e9",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1038",
+            "total_amt_msat": "38892038"
+          },
+          "attempt_time_ns": "1717881856684808508",
+          "resolve_time_ns": "1717881857008444633",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "45e3a6d9e48b42a7e62785d7fbd34526b7f0109b40ef2ffbd38f84e8fbad9bc95b8ae43c2780fc5b5d6992f168837ccedb43da6920137436752a92242c44b6d3",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "253987186081792",
+              "timestamp": 1717880966,
+              "message_flags": 1,
+              "channel_flags": 1,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 1,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "33",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 800,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "610228953546752",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 720,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "44",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "590437744181248",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 640,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "412316860481536",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 640,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "742dd5469db5b5e00b2a091c01292a9a4d0367a71a141578a9780333ea28d9e9",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1082",
+            "total_amt_msat": "38892082"
+          },
+          "attempt_time_ns": "1717881857026991050",
+          "resolve_time_ns": "1717881857825454050",
+          "failure": null,
+          "preimage": "189bffd6594b04f3119e228356d785e1429d0044582c7f9dbbf5264db2f8edc1"
+        }
+      ],
+      "payment_index": "23",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd12",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd6",
+      "lnd12"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
+          "history": {
+            "fail_time": "1717881897",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881898",
+            "success_amt_sat": "38893",
+            "success_amt_msat": "38893076"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881898",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881897",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "node_to": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881898",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "4f9a755dfdc8f1e3ef5b6c0fe62fc324cff4190a6fc65fdff1ed2f2300037ad3",
+      "value": "38891",
+      "creation_date": "1717881897",
+      "fee": "2",
+      "payment_preimage": "64c4050fc02ed0c926ab2a51b1ef7cab2f30abe80a369119651ed0352e0f404f",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfnpfpp5f7d82h0aerc78m6mds87vt7ryn8lgxg2dlr9lhl3a5hjxqqr0tfsdqqcqzzsxqyz5vqsp5cqsmc9upvr774g3gslmpsgu0py8jwa09yv4utcyfj0z7gtecmxxq9qxpqysgqzfktw60vgl7cxatsky2hnv0g0e7x8ywmqxm73a3330u2uhw54lq50h3ydy2admexkgh0ssy2pnrs3cf0zan6xju6dv52u8ee74969zgp9t6z98",
+      "status": "SUCCEEDED",
+      "fee_sat": "2",
+      "fee_msat": "2076",
+      "creation_time_ns": "1717881897615710722",
+      "htlcs": [
+        {
+          "attempt_id": "34",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 815,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "626721627963392",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 735,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "44",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "547556790697984",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 655,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "438705139548160",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 655,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "c021bc178160fdeaa22887f618238f090f2775e5232bc5e08993c5e42f38d98c",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1082",
+            "total_amt_msat": "38892082"
+          },
+          "attempt_time_ns": "1717881897645938305",
+          "resolve_time_ns": "1717881897973770180",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "d0785519a2ed6e0af35206b3cf699f963e28a862e8f09919523fba4170868662417ce7dd3fb6bc157ccb6de2e90c42428fd261cb5eeb3c126219bd8c109562ee",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "438705139548160",
+              "timestamp": 1717881311,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 2,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "35",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 815,
+            "total_fees": "2",
+            "total_amt": "38893",
+            "hops": [
+              {
+                "chan_id": "626721627963392",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "1",
+                "expiry": 735,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "1038",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "303465209331712",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 655,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "300166674448384",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 655,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "c021bc178160fdeaa22887f618238f090f2775e5232bc5e08993c5e42f38d98c",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "2076",
+            "total_amt_msat": "38893076"
+          },
+          "attempt_time_ns": "1717881898001678347",
+          "resolve_time_ns": "1717881898362770847",
+          "failure": null,
+          "preimage": "64c4050fc02ed0c926ab2a51b1ef7cab2f30abe80a369119651ed0352e0f404f"
+        }
+      ],
+      "payment_index": "24",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd13",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd7",
+      "lnd13"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881944",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892082"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881944",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881944",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "d7ca823b6175627f77564565064da7d9d3776f811feb0a97e23148c1cf2037f7",
+      "value": "38891",
+      "creation_date": "1717881944",
+      "fee": "1",
+      "payment_preimage": "610aa4a94a69260a67b76ace550a498e2e06aa48a7290a45daee0fc2e80b29b8",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfnzcpp56l9gywmpw4387a6kg4jsvnd8m8fhwmuprl4s49lzx9yvrneqxlmsdqqcqzzsxqyz5vqsp5pgwx3dvhwtea8fv330adhyazp63385hrhwhhcecjywvfffendycq9qxpqysgqd96vnwh9a8f2d5c206tvceeq77m2m9zafgrp24svq32amv9hqlqjxddm9tg3293ugu8tcjufgpwx9uf2vf5u2u8zgu4htjcfvgd5m3qqwynwww",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1082",
+      "creation_time_ns": "1717881944557661632",
+      "htlcs": [
+        {
+          "attempt_id": "36",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 830,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "643214302445568",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 750,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "44",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "623423093014528",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 670,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "425511000014848",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 670,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "0a1c68b59772f3d3a5918bfadb93a20ea313d2e3bbaf7c6712239894a7336930",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1082",
+            "total_amt_msat": "38892082"
+          },
+          "attempt_time_ns": "1717881944574238674",
+          "resolve_time_ns": "1717881944944449174",
+          "failure": null,
+          "preimage": "610aa4a94a69260a67b76ace550a498e2e06aa48a7290a45daee0fc2e80b29b8"
+        }
+      ],
+      "payment_index": "25",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  },
+  {
+    "source": "lnd",
+    "destination": "lnd14",
+    "source_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+    "destination_pubkey": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+    "complete_route_in_shortest_path": [
+      "lnd",
+      "lnd8",
+      "lnd2",
+      "lnd14"
+    ],
+    "mc_data": {
+      "pairs": [
+        {
+          "node_from": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
+          "node_to": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881982",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892082"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881982",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+          "node_to": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881982",
+            "success_amt_sat": "38892",
+            "success_amt_msat": "38892038"
+          }
+        },
+        {
+          "node_from": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+          "node_to": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+          "history": {
+            "fail_time": "1717881982",
+            "fail_amt_sat": "38891",
+            "fail_amt_msat": "38891000",
+            "success_time": "0",
+            "success_amt_sat": "0",
+            "success_amt_msat": "0"
+          }
+        },
+        {
+          "node_from": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+          "node_to": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+          "history": {
+            "fail_time": "0",
+            "fail_amt_sat": "0",
+            "fail_amt_msat": "0",
+            "success_time": "1717881982",
+            "success_amt_sat": "38891",
+            "success_amt_msat": "38891000"
+          }
+        }
+      ]
+    },
+    "payment_attempts_before_mc": {
+      "payment_hash": "38ee04274790b1edbc07d296f333acb8d0520ebd0bcf31decf504fe448ebdf8d",
+      "value": "38891",
+      "creation_date": "1717881981",
+      "fee": "1",
+      "payment_preimage": "fb75600dc1efc2ad9b55518957a22efc141d1571408cb1d696cafc2d1a5093ab",
+      "value_sat": "38891",
+      "value_msat": "38891000",
+      "payment_request": "lnbcrt388910n1pnxfnrapp58rhqgf68jzc7m0q862t0xvavhrg9yr4ap08nrhk02p87gj8tm7xsdqqcqzzsxqyz5vqsp5t0rk0ntgxzjhdf0w0ac0n2gekgtfejgd74wvfx7ueeawcklhmfws9qxpqysgqfgm0wwdyk3u8033frjj4vf6v5ute7jgcqhzca6l3vjns9v57qmuxqtp6terlt9n7xgfwtx6d7674rtp948zapp4h7625yzk97mvjytqqgacrxz",
+      "status": "SUCCEEDED",
+      "fee_sat": "1",
+      "fee_msat": "1082",
+      "creation_time_ns": "1717881981852675802",
+      "htlcs": [
+        {
+          "attempt_id": "37",
+          "status": "FAILED",
+          "route": {
+            "total_time_lock": 845,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "659706976796672",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 765,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "44",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "481586093031424",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 685,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "280375465148416",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 685,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "5bc767cd6830a576a5ee7f70f9a919b2169cc90df55cc49bdcce7aec5bf7da5d",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1082",
+            "total_amt_msat": "38892082"
+          },
+          "attempt_time_ns": "1717881981870578594",
+          "resolve_time_ns": "1717881982152558261",
+          "failure": {
+            "code": "TEMPORARY_CHANNEL_FAILURE",
+            "channel_update": {
+              "signature": "c1f0283f1138597fe5016c018d542e58d3dcaf7151fc9fe55f89495200a7924e377a857052ef43a5dea9edc6cfd6159b94ec7e04b642dc569a9530fc034b75a8",
+              "chain_hash": "06226e46111a0b59caaf126043eb5bbf28c34f3a5e332a1fc7b2b73cf188910f",
+              "chan_id": "280375465148416",
+              "timestamp": 1717881012,
+              "message_flags": 1,
+              "channel_flags": 0,
+              "time_lock_delta": 80,
+              "htlc_minimum_msat": "1000",
+              "base_fee": 1000,
+              "fee_rate": 1,
+              "htlc_maximum_msat": "59994000",
+              "extra_opaque_data": ""
+            },
+            "htlc_msat": "0",
+            "onion_sha_256": "",
+            "cltv_expiry": 0,
+            "flags": 0,
+            "failure_source_index": 2,
+            "height": 0
+          },
+          "preimage": ""
+        },
+        {
+          "attempt_id": "38",
+          "status": "SUCCEEDED",
+          "route": {
+            "total_time_lock": 845,
+            "total_fees": "1",
+            "total_amt": "38892",
+            "hops": [
+              {
+                "chan_id": "659706976796672",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38892",
+                "fee": "0",
+                "expiry": 765,
+                "amt_to_forward_msat": "38892038",
+                "fee_msat": "44",
+                "pub_key": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "547556790697984",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "1",
+                "expiry": 685,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "1038",
+                "pub_key": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
+                "tlv_payload": true,
+                "mpp_record": null,
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              },
+              {
+                "chan_id": "432108069781504",
+                "chan_capacity": "60600",
+                "amt_to_forward": "38891",
+                "fee": "0",
+                "expiry": 685,
+                "amt_to_forward_msat": "38891000",
+                "fee_msat": "0",
+                "pub_key": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
+                "tlv_payload": true,
+                "mpp_record": {
+                  "payment_addr": "5bc767cd6830a576a5ee7f70f9a919b2169cc90df55cc49bdcce7aec5bf7da5d",
+                  "total_amt_msat": "38891000"
+                },
+                "amp_record": null,
+                "custom_records": {},
+                "metadata": "",
+                "blinding_point": "",
+                "encrypted_data": "",
+                "total_amt_msat": "0"
+              }
+            ],
+            "total_fees_msat": "1082",
+            "total_amt_msat": "38892082"
+          },
+          "attempt_time_ns": "1717881982175472344",
+          "resolve_time_ns": "1717881982750543219",
+          "failure": null,
+          "preimage": "fb75600dc1efc2ad9b55518957a22efc141d1571408cb1d696cafc2d1a5093ab"
+        }
+      ],
+      "payment_index": "26",
+      "failure_reason": "FAILURE_REASON_NONE"
+    }
+  }
+]

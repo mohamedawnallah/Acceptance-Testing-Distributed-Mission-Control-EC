@@ -1,0 +1,17 @@
+services:
+    # lightninglabs/bitcoin-core is the base image for bitcoind.
+    # The environment variables default values determined on stage of container
+    # start within starting script.
+    bitcoind:
+        image: bitcoind
+        container_name: bitcoind
+        build:
+            context: bitcoind/
+        environment:
+            - RPCAUTH
+            - NETWORK
+            - BITCOIND_DEBUG
+            - PS1=root@bitcoind#
+        volumes:
+            - bitcoin:/data
+        entrypoint: ["./start-bitcoind.sh"]
