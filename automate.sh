@@ -2,7 +2,7 @@
 
 docker rm -f $(docker ps -aq) && docker volume rm $(docker volume ls -q)
 
-n=15
+n=20
 capacity=60600
 min_base_fees=2
 max_base_fees=50

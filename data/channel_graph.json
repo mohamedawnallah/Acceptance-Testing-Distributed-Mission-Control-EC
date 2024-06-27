@@ -2,297 +2,401 @@
     {
         "from": "lnd",
         "to": "lnd1",
-        "from_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
-        "to_pubkey": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
+        "from_pubkey": "02ecd7ab61258bb09f72e8570b21d5834e8178e7de010694728aac56ea197ce2a3",
+        "to_pubkey": "032649faaac2b7dc24d7fc064717b634696c09ffbde4d37715219877de175cb2ae",
         "capacity": 60600,
         "base_fees": 0
     },
     {
         "from": "lnd",
-        "to": "lnd8",
-        "from_pubkey": "03c1e2bd89d17c547d0fb757c86aec05d40c648afbace6d5ae173d3d833d078d86",
-        "to_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+        "to": "lnd10",
+        "from_pubkey": "02ecd7ab61258bb09f72e8570b21d5834e8178e7de010694728aac56ea197ce2a3",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
         "capacity": 60600,
         "base_fees": 0
     },
     {
         "from": "lnd1",
-        "to": "lnd11",
-        "from_pubkey": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+        "to": "lnd12",
+        "from_pubkey": "032649faaac2b7dc24d7fc064717b634696c09ffbde4d37715219877de175cb2ae",
+        "to_pubkey": "025ee31075a8d1d03ec073fcd0b67ac1404accea3a7f07a02b8b3df24096e7624c",
         "capacity": 60600,
-        "base_fees": 19
-    },
-    {
-        "from": "lnd1",
-        "to": "lnd9",
-        "from_pubkey": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
-        "capacity": 60600,
-        "base_fees": 20
-    },
-    {
-        "from": "lnd1",
-        "to": "lnd10",
-        "from_pubkey": "02b6075f7f447a7df41fe1feffb23caa9e8f52df98ac55b305e6f5b792f182850f",
-        "to_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
-        "capacity": 60600,
-        "base_fees": 35
+        "base_fees": 4
     },
     {
         "from": "lnd2",
-        "to": "lnd10",
-        "from_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
-        "to_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+        "to": "lnd19",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "0282eac99804cd4917e811c795df85a8711a2ac448a1501885e7c3f5820f177969",
         "capacity": 60600,
-        "base_fees": 9
-    },
-    {
-        "from": "lnd2",
-        "to": "lnd14",
-        "from_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
-        "to_pubkey": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
-        "capacity": 60600,
-        "base_fees": 44
-    },
-    {
-        "from": "lnd2",
-        "to": "lnd9",
-        "from_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
-        "capacity": 60600,
-        "base_fees": 27
-    },
-    {
-        "from": "lnd2",
-        "to": "lnd11",
-        "from_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
-        "capacity": 60600,
-        "base_fees": 35
+        "base_fees": 25
     },
     {
         "from": "lnd2",
         "to": "lnd12",
-        "from_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
-        "to_pubkey": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "025ee31075a8d1d03ec073fcd0b67ac1404accea3a7f07a02b8b3df24096e7624c",
         "capacity": 60600,
-        "base_fees": 16
+        "base_fees": 39
     },
     {
         "from": "lnd2",
-        "to": "lnd8",
-        "from_pubkey": "02d43a90b462253c2e92d102d6a5815349ee1ff22343705bb7098ae80931dd07b8",
-        "to_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+        "to": "lnd17",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "025a0c9e8fcd992adc9311b1e1c87afc74c9a846f1d5ab82c36bd354372150caff",
         "capacity": 60600,
-        "base_fees": 6
+        "base_fees": 41
+    },
+    {
+        "from": "lnd2",
+        "to": "lnd18",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "031e4d0b1ef329864a3a913e4284a2ca6c0dfcbd17d522ed5450492473324209e9",
+        "capacity": 60600,
+        "base_fees": 43
+    },
+    {
+        "from": "lnd2",
+        "to": "lnd10",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
+        "capacity": 60600,
+        "base_fees": 25
+    },
+    {
+        "from": "lnd2",
+        "to": "lnd14",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "02d68c4877b6abc43268ffc89a784a1153e2bd340f38f43f12e34dd4e553eb704d",
+        "capacity": 60600,
+        "base_fees": 11
+    },
+    {
+        "from": "lnd2",
+        "to": "lnd11",
+        "from_pubkey": "03a5e2c4ed188709af4c66d31dddda9bd79206009a95af9f13b9f4fed4ed4b7678",
+        "to_pubkey": "038357259e1408bbd31e120586284ce044a2469a701c1bdac66d25410c3b150cab",
+        "capacity": 60600,
+        "base_fees": 17
     },
     {
         "from": "lnd3",
-        "to": "lnd8",
-        "from_pubkey": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
-        "to_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+        "to": "lnd17",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "025a0c9e8fcd992adc9311b1e1c87afc74c9a846f1d5ab82c36bd354372150caff",
         "capacity": 60600,
-        "base_fees": 31
+        "base_fees": 2
     },
     {
         "from": "lnd3",
-        "to": "lnd13",
-        "from_pubkey": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
-        "to_pubkey": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
+        "to": "lnd14",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "02d68c4877b6abc43268ffc89a784a1153e2bd340f38f43f12e34dd4e553eb704d",
+        "capacity": 60600,
+        "base_fees": 35
+    },
+    {
+        "from": "lnd3",
+        "to": "lnd10",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
         "capacity": 60600,
         "base_fees": 14
     },
     {
         "from": "lnd3",
-        "to": "lnd11",
-        "from_pubkey": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+        "to": "lnd15",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "035de1669381b0e6f4b1d4e3b3c361cb31bc8d031ea198f25403cdb8c580061e4d",
         "capacity": 60600,
-        "base_fees": 3
+        "base_fees": 7
     },
     {
         "from": "lnd3",
-        "to": "lnd9",
-        "from_pubkey": "03bc64a8c906b1c175a08f4ac4d1556be6b4dbb1f67a2f1c4fc6405f4213593c2d",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+        "to": "lnd12",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "025ee31075a8d1d03ec073fcd0b67ac1404accea3a7f07a02b8b3df24096e7624c",
         "capacity": 60600,
-        "base_fees": 10
+        "base_fees": 47
     },
     {
-        "from": "lnd4",
-        "to": "lnd8",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+        "from": "lnd3",
+        "to": "lnd11",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "038357259e1408bbd31e120586284ce044a2469a701c1bdac66d25410c3b150cab",
+        "capacity": 60600,
+        "base_fees": 4
+    },
+    {
+        "from": "lnd3",
+        "to": "lnd16",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "034c3ed552ee4c6040426f7565fe5fc0dd635d22fa67d1771e752161b0952dab78",
+        "capacity": 60600,
+        "base_fees": 43
+    },
+    {
+        "from": "lnd3",
+        "to": "lnd19",
+        "from_pubkey": "0315182a68718e122e9a5f2fa6d62a33df72462351f0cb7690fdea9599f687f50a",
+        "to_pubkey": "0282eac99804cd4917e811c795df85a8711a2ac448a1501885e7c3f5820f177969",
         "capacity": 60600,
         "base_fees": 3
     },
     {
         "from": "lnd4",
-        "to": "lnd12",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
-        "capacity": 60600,
-        "base_fees": 16
-    },
-    {
-        "from": "lnd4",
-        "to": "lnd13",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
-        "capacity": 60600,
-        "base_fees": 19
-    },
-    {
-        "from": "lnd4",
-        "to": "lnd9",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
-        "capacity": 60600,
-        "base_fees": 38
-    },
-    {
-        "from": "lnd4",
-        "to": "lnd11",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
-        "capacity": 60600,
-        "base_fees": 18
-    },
-    {
-        "from": "lnd4",
         "to": "lnd10",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
-        "capacity": 60600,
-        "base_fees": 46
-    },
-    {
-        "from": "lnd4",
-        "to": "lnd14",
-        "from_pubkey": "037746aa757dfcba0d0b14c829e43e3817d9b77638ea17a18b700d5c0fbde77ad0",
-        "to_pubkey": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
-        "capacity": 60600,
-        "base_fees": 29
-    },
-    {
-        "from": "lnd5",
-        "to": "lnd10",
-        "from_pubkey": "0324ec61f7f5af5a493b2e0e3297cadab061618fdd2c3d2bac599cbc05b46d664d",
-        "to_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
-        "capacity": 60600,
-        "base_fees": 42
-    },
-    {
-        "from": "lnd5",
-        "to": "lnd9",
-        "from_pubkey": "0324ec61f7f5af5a493b2e0e3297cadab061618fdd2c3d2bac599cbc05b46d664d",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+        "from_pubkey": "03c3801bc70569f345c0de547cf39774473ed3caf3702cd56e9c277bee010e2dfd",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
         "capacity": 60600,
         "base_fees": 20
     },
     {
         "from": "lnd5",
+        "to": "lnd10",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
+        "capacity": 60600,
+        "base_fees": 22
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd14",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "02d68c4877b6abc43268ffc89a784a1153e2bd340f38f43f12e34dd4e553eb704d",
+        "capacity": 60600,
+        "base_fees": 43
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd19",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "0282eac99804cd4917e811c795df85a8711a2ac448a1501885e7c3f5820f177969",
+        "capacity": 60600,
+        "base_fees": 16
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd16",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "034c3ed552ee4c6040426f7565fe5fc0dd635d22fa67d1771e752161b0952dab78",
+        "capacity": 60600,
+        "base_fees": 32
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd13",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "023526cd7dc907b7c47bf4248aa839d64e9efa00fb9ef5c9cbc3f1b7c2375dbea1",
+        "capacity": 60600,
+        "base_fees": 19
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd18",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "031e4d0b1ef329864a3a913e4284a2ca6c0dfcbd17d522ed5450492473324209e9",
+        "capacity": 60600,
+        "base_fees": 17
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd12",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "025ee31075a8d1d03ec073fcd0b67ac1404accea3a7f07a02b8b3df24096e7624c",
+        "capacity": 60600,
+        "base_fees": 25
+    },
+    {
+        "from": "lnd5",
         "to": "lnd11",
-        "from_pubkey": "0324ec61f7f5af5a493b2e0e3297cadab061618fdd2c3d2bac599cbc05b46d664d",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "038357259e1408bbd31e120586284ce044a2469a701c1bdac66d25410c3b150cab",
+        "capacity": 60600,
+        "base_fees": 42
+    },
+    {
+        "from": "lnd5",
+        "to": "lnd15",
+        "from_pubkey": "03a429723ca5eab4fbe88ebc779e0b1fc3bdb61b355b54caa52117a63b1d860c62",
+        "to_pubkey": "035de1669381b0e6f4b1d4e3b3c361cb31bc8d031ea198f25403cdb8c580061e4d",
+        "capacity": 60600,
+        "base_fees": 38
+    },
+    {
+        "from": "lnd6",
+        "to": "lnd14",
+        "from_pubkey": "035ccb36c82c9185e68e8b7b9c961ad1ea5f3fd62b4e7167a0d40083efb5195c6c",
+        "to_pubkey": "02d68c4877b6abc43268ffc89a784a1153e2bd340f38f43f12e34dd4e553eb704d",
         "capacity": 60600,
         "base_fees": 35
     },
     {
         "from": "lnd6",
-        "to": "lnd9",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
-        "capacity": 60600,
-        "base_fees": 15
-    },
-    {
-        "from": "lnd6",
         "to": "lnd11",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
+        "from_pubkey": "035ccb36c82c9185e68e8b7b9c961ad1ea5f3fd62b4e7167a0d40083efb5195c6c",
+        "to_pubkey": "038357259e1408bbd31e120586284ce044a2469a701c1bdac66d25410c3b150cab",
         "capacity": 60600,
-        "base_fees": 18
+        "base_fees": 44
     },
     {
         "from": "lnd6",
-        "to": "lnd8",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+        "to": "lnd17",
+        "from_pubkey": "035ccb36c82c9185e68e8b7b9c961ad1ea5f3fd62b4e7167a0d40083efb5195c6c",
+        "to_pubkey": "025a0c9e8fcd992adc9311b1e1c87afc74c9a846f1d5ab82c36bd354372150caff",
         "capacity": 60600,
-        "base_fees": 6
-    },
-    {
-        "from": "lnd6",
-        "to": "lnd13",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
-        "capacity": 60600,
-        "base_fees": 34
-    },
-    {
-        "from": "lnd6",
-        "to": "lnd14",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "036f589f4bbb73572d2fbf60a19661164d28b13fe340c1404dc529fedcfbfca258",
-        "capacity": 60600,
-        "base_fees": 3
-    },
-    {
-        "from": "lnd6",
-        "to": "lnd12",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "0249a21368d4b30d973e8b93c10df292dc62cb1095d62631af1bab1bd3d63f166f",
-        "capacity": 60600,
-        "base_fees": 30
+        "base_fees": 14
     },
     {
         "from": "lnd6",
         "to": "lnd10",
-        "from_pubkey": "0200066b0e720f33ea7deae2af5ead795192b06af4e89d3eac0545786fd911ef38",
-        "to_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+        "from_pubkey": "035ccb36c82c9185e68e8b7b9c961ad1ea5f3fd62b4e7167a0d40083efb5195c6c",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
         "capacity": 60600,
-        "base_fees": 33
+        "base_fees": 4
+    },
+    {
+        "from": "lnd6",
+        "to": "lnd18",
+        "from_pubkey": "035ccb36c82c9185e68e8b7b9c961ad1ea5f3fd62b4e7167a0d40083efb5195c6c",
+        "to_pubkey": "031e4d0b1ef329864a3a913e4284a2ca6c0dfcbd17d522ed5450492473324209e9",
+        "capacity": 60600,
+        "base_fees": 8
     },
     {
         "from": "lnd7",
-        "to": "lnd9",
-        "from_pubkey": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
-        "to_pubkey": "022bb8b876fcb855c1d6c752c255469e1ed4caf8f431e03287b6d7c17395e7152d",
+        "to": "lnd12",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "025ee31075a8d1d03ec073fcd0b67ac1404accea3a7f07a02b8b3df24096e7624c",
         "capacity": 60600,
-        "base_fees": 18
+        "base_fees": 17
     },
     {
         "from": "lnd7",
-        "to": "lnd8",
-        "from_pubkey": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
-        "to_pubkey": "03694e667490d04efb5d16bedaec579eca7773a6232e7863a3482a4e1b4751519e",
+        "to": "lnd10",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
+        "capacity": 60600,
+        "base_fees": 11
+    },
+    {
+        "from": "lnd7",
+        "to": "lnd15",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "035de1669381b0e6f4b1d4e3b3c361cb31bc8d031ea198f25403cdb8c580061e4d",
+        "capacity": 60600,
+        "base_fees": 10
+    },
+    {
+        "from": "lnd7",
+        "to": "lnd17",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "025a0c9e8fcd992adc9311b1e1c87afc74c9a846f1d5ab82c36bd354372150caff",
+        "capacity": 60600,
+        "base_fees": 29
+    },
+    {
+        "from": "lnd7",
+        "to": "lnd16",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "034c3ed552ee4c6040426f7565fe5fc0dd635d22fa67d1771e752161b0952dab78",
+        "capacity": 60600,
+        "base_fees": 5
+    },
+    {
+        "from": "lnd7",
+        "to": "lnd19",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "0282eac99804cd4917e811c795df85a8711a2ac448a1501885e7c3f5820f177969",
+        "capacity": 60600,
+        "base_fees": 4
+    },
+    {
+        "from": "lnd7",
+        "to": "lnd14",
+        "from_pubkey": "024843c63b6aa14ffa473493b0613d9d145c32a9865aabc93fa3631f70625f6139",
+        "to_pubkey": "02d68c4877b6abc43268ffc89a784a1153e2bd340f38f43f12e34dd4e553eb704d",
+        "capacity": 60600,
+        "base_fees": 35
+    },
+    {
+        "from": "lnd8",
+        "to": "lnd10",
+        "from_pubkey": "02ffd31235d1990536c2b61d25a51a7eaa52d1c012727ca4ffc5e0e392b40d1819",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
+        "capacity": 60600,
+        "base_fees": 27
+    },
+    {
+        "from": "lnd8",
+        "to": "lnd13",
+        "from_pubkey": "02ffd31235d1990536c2b61d25a51a7eaa52d1c012727ca4ffc5e0e392b40d1819",
+        "to_pubkey": "023526cd7dc907b7c47bf4248aa839d64e9efa00fb9ef5c9cbc3f1b7c2375dbea1",
+        "capacity": 60600,
+        "base_fees": 29
+    },
+    {
+        "from": "lnd8",
+        "to": "lnd14",
+        "from_pubkey": "02ffd31235d1990536c2b61d25a51a7eaa52d1c012727ca4ffc5e0e392b40d1819",
+        "to_pubkey": "02d68c4877b6abc43268ffc89a784a1153e2bd340f38f43f12e34dd4e553eb704d",
+        "capacity": 60600,
+        "base_fees": 40
+    },
+    {
+        "from": "lnd9",
+        "to": "lnd12",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "025ee31075a8d1d03ec073fcd0b67ac1404accea3a7f07a02b8b3df24096e7624c",
         "capacity": 60600,
         "base_fees": 13
     },
     {
-        "from": "lnd7",
-        "to": "lnd13",
-        "from_pubkey": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
-        "to_pubkey": "026dfa0fc0a365ea2df5dbfff410b55b70a958c8e8a3c941af239f733fba39e284",
+        "from": "lnd9",
+        "to": "lnd18",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "031e4d0b1ef329864a3a913e4284a2ca6c0dfcbd17d522ed5450492473324209e9",
         "capacity": 60600,
-        "base_fees": 48
+        "base_fees": 6
     },
     {
-        "from": "lnd7",
-        "to": "lnd11",
-        "from_pubkey": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
-        "to_pubkey": "021f04072d8b77ed17cf6414d8ce575bc50bee0eb4a6a01d4532d1379b67eeac3c",
-        "capacity": 60600,
-        "base_fees": 21
-    },
-    {
-        "from": "lnd7",
+        "from": "lnd9",
         "to": "lnd10",
-        "from_pubkey": "025926aefe745da7368372e971ca1fca221da532865929e0c1005671d31f4fe998",
-        "to_pubkey": "036e4b60596ba6984f8240ddfe172c0fd36b6c80364110a538ca8ee753bae4f82c",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "03798263a3e382602060344f8b4f66eb1f6a29e929416ffb2f1729e9843b2bd277",
         "capacity": 60600,
-        "base_fees": 2
+        "base_fees": 6
+    },
+    {
+        "from": "lnd9",
+        "to": "lnd11",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "038357259e1408bbd31e120586284ce044a2469a701c1bdac66d25410c3b150cab",
+        "capacity": 60600,
+        "base_fees": 5
+    },
+    {
+        "from": "lnd9",
+        "to": "lnd16",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "034c3ed552ee4c6040426f7565fe5fc0dd635d22fa67d1771e752161b0952dab78",
+        "capacity": 60600,
+        "base_fees": 50
+    },
+    {
+        "from": "lnd9",
+        "to": "lnd17",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "025a0c9e8fcd992adc9311b1e1c87afc74c9a846f1d5ab82c36bd354372150caff",
+        "capacity": 60600,
+        "base_fees": 17
+    },
+    {
+        "from": "lnd9",
+        "to": "lnd15",
+        "from_pubkey": "0253d2fc8c7bdc142fc2551f6f820b990bacc8af5c7b4055f4ba66fe21a51d19ca",
+        "to_pubkey": "035de1669381b0e6f4b1d4e3b3c361cb31bc8d031ea198f25403cdb8c580061e4d",
+        "capacity": 60600,
+        "base_fees": 27
     }
 ]

@@ -25,7 +25,7 @@ for i in $(seq 0 $((NUM_NODES - 1))); do
   echo "        image: lnd" >> "$OUTPUT_FILE"
   echo "        container_name: $NAME" >> "$OUTPUT_FILE"
   echo "        build:" >> "$OUTPUT_FILE"
-  echo "            context: ../" >> "$OUTPUT_FILE"
+  echo "            context: ./" >> "$OUTPUT_FILE"
   echo "            dockerfile: dev.Dockerfile" >> "$OUTPUT_FILE"
   echo "        environment:" >> "$OUTPUT_FILE"
   echo "            - RPCUSER=devuser" >> "$OUTPUT_FILE"

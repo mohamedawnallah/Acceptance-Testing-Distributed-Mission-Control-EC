@@ -19,7 +19,7 @@ services:
         image: lnd
         container_name: lnd
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -42,7 +42,7 @@ services:
         image: lnd
         container_name: lnd1
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -65,7 +65,7 @@ services:
         image: lnd
         container_name: lnd2
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -88,7 +88,7 @@ services:
         image: lnd
         container_name: lnd3
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -111,7 +111,7 @@ services:
         image: lnd
         container_name: lnd4
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -134,7 +134,7 @@ services:
         image: lnd
         container_name: lnd5
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -157,7 +157,7 @@ services:
         image: lnd
         container_name: lnd6
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -180,7 +180,7 @@ services:
         image: lnd
         container_name: lnd7
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -203,7 +203,7 @@ services:
         image: lnd
         container_name: lnd8
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -226,7 +226,7 @@ services:
         image: lnd
         container_name: lnd9
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -249,7 +249,7 @@ services:
         image: lnd
         container_name: lnd10
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -272,7 +272,7 @@ services:
         image: lnd
         container_name: lnd11
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -295,7 +295,7 @@ services:
         image: lnd
         container_name: lnd12
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -318,7 +318,7 @@ services:
         image: lnd
         container_name: lnd13
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -341,7 +341,7 @@ services:
         image: lnd
         container_name: lnd14
         build:
-            context: ../
+            context: ./
             dockerfile: dev.Dockerfile
         environment:
             - RPCUSER=devuser
@@ -354,6 +354,121 @@ services:
             - PS1=\u@lnd14#
         volumes:
             - lnd14:/root/.lnd
+        entrypoint: ["./start-lnd.sh"]
+        depends_on:
+            - "bitcoind"
+        links:
+            - "bitcoind:blockchain"
+
+    lnd15:
+        image: lnd
+        container_name: lnd15
+        build:
+            context: ./
+            dockerfile: dev.Dockerfile
+        environment:
+            - RPCUSER=devuser
+            - RPCPASS=devpass
+            - NETWORK=regtest
+            - CHAIN=bitcoin
+            - LND_DEBUG=debug
+            - BACKEND=bitcoind
+            - ALIAS=lnd15
+            - PS1=\u@lnd15#
+        volumes:
+            - lnd15:/root/.lnd
+        entrypoint: ["./start-lnd.sh"]
+        depends_on:
+            - "bitcoind"
+        links:
+            - "bitcoind:blockchain"
+
+    lnd16:
+        image: lnd
+        container_name: lnd16
+        build:
+            context: ./
+            dockerfile: dev.Dockerfile
+        environment:
+            - RPCUSER=devuser
+            - RPCPASS=devpass
+            - NETWORK=regtest
+            - CHAIN=bitcoin
+            - LND_DEBUG=debug
+            - BACKEND=bitcoind
+            - ALIAS=lnd16
+            - PS1=\u@lnd16#
+        volumes:
+            - lnd16:/root/.lnd
+        entrypoint: ["./start-lnd.sh"]
+        depends_on:
+            - "bitcoind"
+        links:
+            - "bitcoind:blockchain"
+
+    lnd17:
+        image: lnd
+        container_name: lnd17
+        build:
+            context: ./
+            dockerfile: dev.Dockerfile
+        environment:
+            - RPCUSER=devuser
+            - RPCPASS=devpass
+            - NETWORK=regtest
+            - CHAIN=bitcoin
+            - LND_DEBUG=debug
+            - BACKEND=bitcoind
+            - ALIAS=lnd17
+            - PS1=\u@lnd17#
+        volumes:
+            - lnd17:/root/.lnd
+        entrypoint: ["./start-lnd.sh"]
+        depends_on:
+            - "bitcoind"
+        links:
+            - "bitcoind:blockchain"
+
+    lnd18:
+        image: lnd
+        container_name: lnd18
+        build:
+            context: ./
+            dockerfile: dev.Dockerfile
+        environment:
+            - RPCUSER=devuser
+            - RPCPASS=devpass
+            - NETWORK=regtest
+            - CHAIN=bitcoin
+            - LND_DEBUG=debug
+            - BACKEND=bitcoind
+            - ALIAS=lnd18
+            - PS1=\u@lnd18#
+        volumes:
+            - lnd18:/root/.lnd
+        entrypoint: ["./start-lnd.sh"]
+        depends_on:
+            - "bitcoind"
+        links:
+            - "bitcoind:blockchain"
+
+    lnd19:
+        image: lnd
+        container_name: lnd19
+        build:
+            context: ./
+            dockerfile: dev.Dockerfile
+        environment:
+            - RPCUSER=devuser
+            - RPCPASS=devpass
+            - NETWORK=regtest
+            - CHAIN=bitcoin
+            - LND_DEBUG=debug
+            - BACKEND=bitcoind
+            - ALIAS=lnd19
+            - PS1=\u@lnd19#
+        volumes:
+            - lnd19:/root/.lnd
         entrypoint: ["./start-lnd.sh"]
         depends_on:
             - "bitcoind"
@@ -392,4 +507,14 @@ volumes:
     lnd13:
         driver: local
     lnd14:
+        driver: local
+    lnd15:
+        driver: local
+    lnd16:
+        driver: local
+    lnd17:
+        driver: local
+    lnd18:
+        driver: local
+    lnd19:
         driver: local
